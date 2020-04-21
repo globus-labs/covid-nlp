@@ -11,29 +11,24 @@ Yadu Nand Babuji, Ben Blaiszik, Kyle Chard, Ryan Chard, Ian Foster, India Gordon
 Data storage and computational support for this research project has been generously supported by the following resources. The data generated have been prepared as part of the nCov-Group Collaboration, a group of over 200 researchers working to use computational techniques to address various challenges associated with COVID-19.
 
 ### Petrel Data Service at the Argonne Leadership Computing Facility (ALCF)
-{: .no_toc }
 This research used resources of the Argonne Leadership Computing Facility, a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
 
-[Petrel](https://press3.mcs.anl.gov/petrel/){: .btn .btn-outline}
+[Petrel](https://press3.mcs.anl.gov/petrel/)
 
 ### Theta at the Argonne Leadership Computing Facility (ALCF)
-{: .no_toc }
 This research used resources of the Argonne Leadership Computing Facility, a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
 
 [ALCF](https://www.alcf.anl.gov){: .btn .btn-outline}
 
 
 ### Frontera at the Texas Advanced Computing Center (TACC)
-{: .no_toc }
-[TACC](https://www.tacc.utexas.edu){: .btn .btn-outline}
+[TACC](https://www.tacc.utexas.edu)
 
 
 ### Comet at the San Diego Supercomputing Center (SDSC)
-{: .no_toc }
-[SDSC](https://www.sdsc.edu){: .btn .btn-outline}
+[SDSC](https://www.sdsc.edu)
 
 ### Data and Computing Infrastructure
-{: .no_toc }
 Many aspects of the data and computing infrastructure have been leveraged from other projects including but not limited to:
 
 Data processing and computation:
