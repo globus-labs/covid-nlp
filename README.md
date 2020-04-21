@@ -5,7 +5,7 @@
 This repository contains a crowd sourced list of molecules derived from literature and other sources to aid computational screenings for molecules that have been screened experimentally or computationally against coronaviruses (SARS,MERS, SARS-CoV-2).
 
 ## Data Structure
-`literature_molecules.csv` - A csv file with headers ["molecule", "virus", "reference", "type", "smiles", "pubchem_id", "similarity_calculated"]
+`literature_molecules.csv` - A csv file with headers ["molecule", "virus", "reference", "type", "smiles", "pubchem_id", "similarity_calculated", "release"]
 * molecule - the name of the molecule (best effort)
 * virus - the virus the molecule was screened against (SARS, MERS, SARS-CoV-2)
 * reference - the reference from which the information was collected
@@ -13,6 +13,7 @@ This repository contains a crowd sourced list of molecules derived from literatu
 * smiles - The oBabel canonical SMILES as retrieved from pubchem
 * pubchem_id - The PubChem ID of the molecule if available
 * similarity_calculated - `1` if similarities have been calculated to other databases, `0` otherwise
+* release - The first release in which the row of information was available
 
 Note that similarities will be calculated to the databases available from the The [nCov-Group Data Repository](https://2019-ncovgroup.github.io/data/), and made available in future releases.
 
@@ -28,21 +29,16 @@ Yadu Nand Babuji, Ben Blaiszik, Kyle Chard, Ryan Chard, Ian Foster, India Gordon
 
 Data storage and computational support for this research project has been generously supported by the following resources. The data generated have been prepared as part of the nCov-Group Collaboration, a group of over 200 researchers working to use computational techniques to address various challenges associated with COVID-19.
 
-**Petrel Data Service at the Argonne Leadership Computing Facility (ALCF)**
+**[Petrel Data Service](https://press3.mcs.anl.gov/petrel/) at the Argonne Leadership Computing Facility (ALCF)**
 This research used resources of the Argonne Leadership Computing Facility, a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
-[Petrel](https://press3.mcs.anl.gov/petrel/)
 
-**Theta at the Argonne Leadership Computing Facility (ALCF)**
+**[Argonne Leadership Computing Facility (ALCF)](https://www.alcf.anl.gov)**
 This research used resources of the Argonne Leadership Computing Facility, a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
-[ALCF](https://www.alcf.anl.gov)
 
+**[Frontera at the Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu)**
 
-**Frontera at the Texas Advanced Computing Center (TACC)**
-[TACC](https://www.tacc.utexas.edu)
+**[Comet at the San Diego Supercomputing Center (SDSC)](https://www.sdsc.edu)**
 
-
-**Comet at the San Diego Supercomputing Center (SDSC)**
-[SDSC](https://www.sdsc.edu)
 
 **Data and Computing Infrastructure**
 Many aspects of the data and computing infrastructure have been leveraged from other projects including but not limited to:
