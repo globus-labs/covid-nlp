@@ -1,12 +1,30 @@
 # COVID Molecules
 
-** The contents of this repository website are for research and educational purposes only. **
+### ** The contents of this repository website are for research and educational purposes only. **
 
-This repository contains a crowd sourced list of molecules derived from literature and other sources to aid computational screenings for molecules active against COVID-19
+This repository contains a crowd sourced list of molecules derived from literature and other sources to aid computational screenings for molecules that have been screened experimentally or computationally against coronaviruses (SARS,MERS, SARS-CoV-2).
+
+## Data Structure
+`literature_molecules.csv` - A csv file with headers ["molecule", "virus", "reference", "type", "smiles", "pubchem_id", "similarity_calculated"]
+* molecule - the name of the molecule (best effort)
+* virus - the virus the molecule was screened against (SARS, MERS, SARS-CoV-2)
+* reference - the reference from which the information was collected
+* type - the type of screening performed ["computational","experimental","mixed"]
+* smiles - The oBabel canonical SMILES as retrieved from pubchem
+* pubchem_id - The PubChem ID of the molecule if available
+* similarity_calculated - `1` if similarities have been calculated to other databases, `0` otherwise
+
+Note that similarities will be calculated to the databases available from the The [nCov-Group Data Repository](https://2019-ncovgroup.github.io/data/), and made available in future releases.
+
+`references.csv` - A line delimited set of references that have been surveyed to arrive at the results
+
+## Updates
+`v0.9 (2020-04-21)` - initial availability
+* 
 
 
 # Acknowledgements
-Yadu Nand Babuji, Ben Blaiszik, Kyle Chard, Ryan Chard, Ian Foster, India Gordon, Kasia Karbarz,  Zhuozhao Li, Linda Novak, Marcus Schwarting, Julie Smagacz,Logan Ward, Zhi Hong
+Yadu Nand Babuji, Ben Blaiszik, Kyle Chard, Ryan Chard, Ian Foster, India Gordon, Zhi Hong, Kasia Karbarz, Zhuozhao Li, Linda Novak, Susan Sarvey, Marcus Schwarting, Julie Smagacz,Logan Ward, Monica Orozco White
 
 Data storage and computational support for this research project has been generously supported by the following resources. The data generated have been prepared as part of the nCov-Group Collaboration, a group of over 200 researchers working to use computational techniques to address various challenges associated with COVID-19.
 
