@@ -22,6 +22,7 @@ Note that similarities will be calculated to molecules in the databases availabl
 
 ## Updates
 `v0.1 (2020-04-21)` - initial availability
+
 `v0.2 (2020-05-08)` - new molecules and inlude Pubchem and canonical SMILES
 
 
