@@ -5,7 +5,7 @@
 This repository contains a crowd sourced list of molecules derived from literature and other sources to aid computational screenings for molecules that have been screened experimentally or computationally against coronaviruses (SARS,MERS, SARS-CoV-2).
 
 ## Data Structure
-`/data/LIT.csv` - A csv file with headers ["molecule", "virus", "reference", "type", "smiles", "pubchem_id", "similarity_calculated", "release"]
+`/LIT/LIT.csv` - A csv file with headers ["molecule", "virus", "reference", "type", "smiles", "pubchem_id", "similarity_calculated", "release"]
 * molecule - the name of the molecule (best effort)
 * virus - the virus the molecule was screened against (SARS, MERS, SARS-CoV-2)
 * reference - the reference from which the information was collected
@@ -18,7 +18,7 @@ This repository contains a crowd sourced list of molecules derived from literatu
 
 Note that similarities will be calculated to molecules in the databases available from the The [nCov-Group Data Repository](https://2019-ncovgroup.github.io/data/), and made available in future releases.
 
-`/data/references.csv` - A line delimited set of references that have been surveyed to arrive at the results
+`/LIT/references.csv` - A line delimited set of references that have been surveyed to arrive at the results
 
 ## Updates
 `v0.1 (2020-04-21)` - initial availability
